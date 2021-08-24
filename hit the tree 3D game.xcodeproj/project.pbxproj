@@ -11,27 +11,8 @@
 		2D1CA04326D4CC1300778528 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CA04226D4CC1300778528 /* GameViewController.swift */; };
 		2D1CA04626D4CC1300778528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CA04426D4CC1300778528 /* Main.storyboard */; };
 		2D1CA04826D4CC1500778528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CA04726D4CC1500778528 /* Assets.xcassets */; };
-		2D1CA05326D4CC1500778528 /* hit_the_tree_3D_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CA05226D4CC1500778528 /* hit_the_tree_3D_gameTests.swift */; };
-		2D1CA05E26D4CC1500778528 /* hit_the_tree_3D_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CA05D26D4CC1500778528 /* hit_the_tree_3D_gameUITests.swift */; };
 		2D1CA06C26D4CD3400778528 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CA06B26D4CD3400778528 /* art.scnassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2D1CA04F26D4CC1500778528 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D1CA03326D4CC1300778528 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D1CA03A26D4CC1300778528;
-			remoteInfo = "hit the tree 3D game";
-		};
-		2D1CA05A26D4CC1500778528 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D1CA03326D4CC1300778528 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D1CA03A26D4CC1300778528;
-			remoteInfo = "hit the tree 3D game";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D1CA03B26D4CC1300778528 /* hit the tree 3D game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hit the tree 3D game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,31 +21,11 @@
 		2D1CA04526D4CC1300778528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1CA04726D4CC1500778528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1CA04926D4CC1500778528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D1CA04E26D4CC1500778528 /* hit the tree 3D gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hit the tree 3D gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D1CA05226D4CC1500778528 /* hit_the_tree_3D_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hit_the_tree_3D_gameTests.swift; sourceTree = "<group>"; };
-		2D1CA05426D4CC1500778528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D1CA05926D4CC1500778528 /* hit the tree 3D gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hit the tree 3D gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D1CA05D26D4CC1500778528 /* hit_the_tree_3D_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hit_the_tree_3D_gameUITests.swift; sourceTree = "<group>"; };
-		2D1CA05F26D4CC1500778528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1CA06B26D4CD3400778528 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D1CA03826D4CC1300778528 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D1CA04B26D4CC1500778528 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D1CA05626D4CC1500778528 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				2D1CA03D26D4CC1300778528 /* hit the tree 3D game */,
-				2D1CA05126D4CC1500778528 /* hit the tree 3D gameTests */,
-				2D1CA05C26D4CC1500778528 /* hit the tree 3D gameUITests */,
 				2D1CA03C26D4CC1300778528 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				2D1CA03B26D4CC1300778528 /* hit the tree 3D game.app */,
-				2D1CA04E26D4CC1500778528 /* hit the tree 3D gameTests.xctest */,
-				2D1CA05926D4CC1500778528 /* hit the tree 3D gameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				2D1CA04926D4CC1500778528 /* Info.plist */,
 			);
 			path = "hit the tree 3D game";
-			sourceTree = "<group>";
-		};
-		2D1CA05126D4CC1500778528 /* hit the tree 3D gameTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D1CA05226D4CC1500778528 /* hit_the_tree_3D_gameTests.swift */,
-				2D1CA05426D4CC1500778528 /* Info.plist */,
-			);
-			path = "hit the tree 3D gameTests";
-			sourceTree = "<group>";
-		};
-		2D1CA05C26D4CC1500778528 /* hit the tree 3D gameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D1CA05D26D4CC1500778528 /* hit_the_tree_3D_gameUITests.swift */,
-				2D1CA05F26D4CC1500778528 /* Info.plist */,
-			);
-			path = "hit the tree 3D gameUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 2D1CA03B26D4CC1300778528 /* hit the tree 3D game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D1CA04D26D4CC1500778528 /* hit the tree 3D gameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D1CA06526D4CC1500778528 /* Build configuration list for PBXNativeTarget "hit the tree 3D gameTests" */;
-			buildPhases = (
-				2D1CA04A26D4CC1500778528 /* Sources */,
-				2D1CA04B26D4CC1500778528 /* Frameworks */,
-				2D1CA04C26D4CC1500778528 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D1CA05026D4CC1500778528 /* PBXTargetDependency */,
-			);
-			name = "hit the tree 3D gameTests";
-			productName = "hit the tree 3D gameTests";
-			productReference = 2D1CA04E26D4CC1500778528 /* hit the tree 3D gameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2D1CA05826D4CC1500778528 /* hit the tree 3D gameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D1CA06826D4CC1500778528 /* Build configuration list for PBXNativeTarget "hit the tree 3D gameUITests" */;
-			buildPhases = (
-				2D1CA05526D4CC1500778528 /* Sources */,
-				2D1CA05626D4CC1500778528 /* Frameworks */,
-				2D1CA05726D4CC1500778528 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D1CA05B26D4CC1500778528 /* PBXTargetDependency */,
-			);
-			name = "hit the tree 3D gameUITests";
-			productName = "hit the tree 3D gameUITests";
-			productReference = 2D1CA05926D4CC1500778528 /* hit the tree 3D gameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,14 +95,6 @@
 				TargetAttributes = {
 					2D1CA03A26D4CC1300778528 = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					2D1CA04D26D4CC1500778528 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 2D1CA03A26D4CC1300778528;
-					};
-					2D1CA05826D4CC1500778528 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 2D1CA03A26D4CC1300778528;
 					};
 				};
 			};
@@ -217,8 +112,6 @@
 			projectRoot = "";
 			targets = (
 				2D1CA03A26D4CC1300778528 /* hit the tree 3D game */,
-				2D1CA04D26D4CC1500778528 /* hit the tree 3D gameTests */,
-				2D1CA05826D4CC1500778528 /* hit the tree 3D gameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D1CA04C26D4CC1500778528 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D1CA05726D4CC1500778528 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,36 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D1CA04A26D4CC1500778528 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D1CA05326D4CC1500778528 /* hit_the_tree_3D_gameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D1CA05526D4CC1500778528 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D1CA05E26D4CC1500778528 /* hit_the_tree_3D_gameUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2D1CA05026D4CC1500778528 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D1CA03A26D4CC1300778528 /* hit the tree 3D game */;
-			targetProxy = 2D1CA04F26D4CC1500778528 /* PBXContainerItemProxy */;
-		};
-		2D1CA05B26D4CC1500778528 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D1CA03A26D4CC1300778528 /* hit the tree 3D game */;
-			targetProxy = 2D1CA05A26D4CC1500778528 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D1CA04426D4CC1300778528 /* Main.storyboard */ = {
@@ -457,86 +307,6 @@
 			};
 			name = Release;
 		};
-		2D1CA06626D4CC1500778528 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hit the tree 3D gameTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "oz.hit-the-tree-3D-gameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hit the tree 3D game.app/hit the tree 3D game";
-			};
-			name = Debug;
-		};
-		2D1CA06726D4CC1500778528 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hit the tree 3D gameTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "oz.hit-the-tree-3D-gameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hit the tree 3D game.app/hit the tree 3D game";
-			};
-			name = Release;
-		};
-		2D1CA06926D4CC1500778528 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hit the tree 3D gameUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "oz.hit-the-tree-3D-gameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "hit the tree 3D game";
-			};
-			name = Debug;
-		};
-		2D1CA06A26D4CC1500778528 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hit the tree 3D gameUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "oz.hit-the-tree-3D-gameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "hit the tree 3D game";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,24 +324,6 @@
 			buildConfigurations = (
 				2D1CA06326D4CC1500778528 /* Debug */,
 				2D1CA06426D4CC1500778528 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D1CA06526D4CC1500778528 /* Build configuration list for PBXNativeTarget "hit the tree 3D gameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D1CA06626D4CC1500778528 /* Debug */,
-				2D1CA06726D4CC1500778528 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D1CA06826D4CC1500778528 /* Build configuration list for PBXNativeTarget "hit the tree 3D gameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D1CA06926D4CC1500778528 /* Debug */,
-				2D1CA06A26D4CC1500778528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
